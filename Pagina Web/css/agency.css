@@ -6,7 +6,6 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
 p {
   line-height: 1.75; }
 
@@ -125,10 +124,11 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
+      background-color: #17191A; }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0; }
+    }
 
 header.masthead {
   text-align: center;
@@ -412,6 +412,7 @@ header.masthead {
       padding: 0 20px 20px; } }
 
 @media (min-width: 1200px) {
+
   .timeline > li {
     min-height: 170px; }
     .timeline > li .timeline-panel {
