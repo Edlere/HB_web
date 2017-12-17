@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -107,13 +103,13 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent; }
+    background-color: #0009; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -124,7 +120,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #17191A; }
+      background-color: #17191AE6; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
       padding: 12px 0; }
@@ -142,7 +138,7 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
@@ -159,7 +155,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
@@ -263,8 +259,8 @@ header.masthead {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     background-color: transparent; }
     .portfolio-modal .close-modal:hover {
@@ -424,7 +420,8 @@ header.masthead {
       .timeline > li .timeline-image h4 {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 100px 20px 20px; } }
+      padding: 0 100px 20px 20px; }
+    }
 
 .team-member {
   margin-bottom: 50px;
