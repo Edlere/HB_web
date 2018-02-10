@@ -393,11 +393,12 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+            <form id="contactForm" action="/contactos" method="post"name="sentMessage" novalidate role="form">
+                  {{ csrf_field() }}
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Tu Nombre *" required data-validation-required-message="Por favor ingrese su nombre">
+                    <input class="form-control" id="nombre" type="text" placeholder="Tu Nombre *" required data-validation-required-message="Por favor ingrese su nombre">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -405,13 +406,13 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Tu Teléfono *" required data-validation-required-message="Por favor ingrese su teléfono">
+                    <input class="form-control" id="telefono" type="tel" placeholder="Tu Teléfono *" required data-validation-required-message="Por favor ingrese su teléfono">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Tu Mensaje *" required data-validation-required-message="Por favor ingrese su mensaje"></textarea>
+                    <textarea class="form-control" id="mensaje" placeholder="Tu Mensaje *" required data-validation-required-message="Por favor ingrese su mensaje"></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
