@@ -1,0 +1,1 @@
+La landingpage está ubicada en resource/views/welcome.php y los recursos css,js e img están en public asi como los recursos de boostrap
